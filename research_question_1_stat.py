@@ -1,7 +1,10 @@
 import pandas as pd 
+import math
 
 df = pd.read_csv('research_question_1_data.csv')
-print(df)
+ttest = pd.read_csv('research_question_1_ttest.csv')
+
+# print(df)
 
 year = df[df.columns[0]]
 sex = df[df.columns[1]]
@@ -11,6 +14,8 @@ c12 = df[df.columns[4]]
 c14 = df[df.columns[5]]
 c16 = df[df.columns[6]]
 c23 = df[df.columns[7]]
+p_values = ttest[ttest.columns[1]]
+significant = ttest[ttest.columns[5]]
 
 women_working = 0
 men_working = 0
@@ -24,10 +29,9 @@ c16_women = [0]*22
 c23_men = [0]*7
 c23_women = [0]*7
 
-
 for i in range(1000):
     
-    if sex[i] == 1:
+    if sex[i] == 1 and age[i] >= 18:
 
         if c11[i] == 1: men_working += 1
         if c12[i] == 1: men_jobs += 1
@@ -107,7 +111,7 @@ for i in range(1000):
             case 5: c23_men[5] += 5 
             case 6: c23_men[6] += 6 
     
-    elif sex[i] == 2:
+    elif sex[i] == 2 and age[i] >= 18:
 
         if c11[i] == 1: women_working += 1
         if c12[i] == 1: women_jobs += 1
@@ -194,10 +198,23 @@ print("Total men with jobs: ", men_jobs)
 print("Total women with jobs: ", women_jobs)
 
 for i in range(10):
-    print("Occupation type ", i, ". M = ", c14_men[i], " W = ", c16_women[i])
+    ratio =  c14_women[i]/(c14_men[i]+c14_women[i]) if (c14_men[i]+c14_women[i]) > 0 else 0.00
+    total = (c14_men[i]+c14_women[i])
+    print("Occupation type ", i, ". M = ", c14_men[i], " W = ", c14_women[i], " | Ratio: ", ratio, " | N = ", total)
 
 for i in range(22):
-    print("Business type ", i, ". M = ", c16_men[i], " W = ", c16_women[i])
+    ratio = c16_women[i]/(c16_men[i]+c16_women[i]) if (c16_men[i]+c16_women[i]) > 0 else 0.00 
+    total = (c16_men[i]+c16_women[i])
+    print("Business type ", i, ". M = ", c16_men[i], " W = ", c16_women[i],  " | Ratio: ", ratio, " | N = ", total)
 
 for i in range(7):
-    print("Worker type ", i,". M = ", c23_men[i], " W = ", c23_women[i])
+    ratio = c23_women[i]/(c23_men[i]+c23_women[i]) if (c23_men[i]+c23_women[i]) > 0 else 0.00
+    total = (c23_men[i]+c23_women[i])
+    print("Worker type ", i,". M = ", c23_men[i], " W = ", c23_women[i],  " | Ratio: ", ratio, " | N = ", total)
+
+for i in range(39):
+    match significant[i]:
+            case 0: print("no significant value at metric ", i)
+            case 1: print("significant value at metric ", i)
+            case 2: print("very significant metric at ", i)
+            case 3: print("extremely significant metric at ", i)
