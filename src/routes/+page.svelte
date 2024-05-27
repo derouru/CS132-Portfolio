@@ -4,25 +4,30 @@
 	<div class="navbar bg-base-100">
 		<div class="flex-1 text-xl px-5">BINI</div>
 		<div class="flex-none">
-			<ul class="menu menu-horizontal">
+			<ul class="menu menu-horizontal space-x-5">
         <!-- Navbar options -->
-				<li class="px-5">Overview</li>
-				<li class="px-5">Data</li>
-        <li class="px-5">Exploration</li>
-        <li class="px-5">Modelling</li>
-        <li class="px-5">Results</li>
-        <li class="px-5">Conclusion</li>
-        <li class="px-5">The Team</li>
+				<li class="btn px-3" >Overview</li>
+				<li class="btn px-3" >Data</li>
+        <li class="btn px-3" >Exploration</li>
+        <li class="btn px-3" >Modelling</li>
+        <li class="btn px-3" >Results</li>
+        <li class="btn px-3" >Conclusion</li>
+        <li class="btn px-3" >The Team</li>
 			</ul>
 		</div>
 	</div>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ CONTENT SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
-  <div class="flex flex-col items-center justify-center h-screen w-full bg-slate-50">
-    <h1 class="text-9xl py-4 font-medium text-zinc-950">Closing the Gap</h1>
-    <h2 class="text-3xl font-bold text-zinc-950">An In-Depth Look at Gender Inequality in the Philippine Labor Force</h2>
+  <div class="hero min-h-screen bg-slate-50">
+    <div class="hero-content text-center">
+      <div class="max-w-4xl">
+        <h1 class="text-9xl py-2 font-medium text-zinc-950">Closing the Gap</h1>
+        <p class="py-6 text-3xl font-bold text-zinc-950">An In-Depth Look at Gender Inequality in the Philippine Labor Force.</p>
+        <button class="btn btn-primary">Let's learn more</button>
+      </div>
+    </div>
   </div>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ CONTENT SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
-  <div class="flex flex-col h-screen w-full">
+  <div class="overview flex flex-col h-screen w-full">
     <h1 class="place-self-center text-5xl py-4 font-medium">Overview</h1>
     <span>The fight for gender equality and women empowerment is long and arduous. In the Philippines, the patriarchal mindset is glaringly apparent, with the stigmatization of gender roles leaving women less likely to take on more domestic, familial duties, in favor of hanging the more productive work to males. 
     This is the case despite the fact that women&#39;s access to education have significantly improved--clearly, the issue lies in pervasive, discriminatory gender norms, which are behind the gender gap in the labor force despite women being as competent and employable as men.
