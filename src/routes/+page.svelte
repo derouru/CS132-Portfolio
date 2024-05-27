@@ -15,7 +15,7 @@
 			</ul>
 		</div>
 	</div>
-  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ CONTENT SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ LANDING SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div class="hero min-h-screen bg-gradient-to-r from-red-300 from-20% via-red-300 via-30% to-red-100 to-90%">
     <div class="hero-content text-center">
       <div class="max-w-4xl">
@@ -25,7 +25,7 @@
       </div>
     </div>
   </div>
-  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ CONTENT SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ BACKGROUND / OVERVIEW SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div class="flex flex-col items-center justify-center h-3/4 w-3/4 mx-auto mt-6">
     <h1 class="text-5xl py-4 font-medium text-center">The fight for gender equality and women empowerment is <span class="text-red-300">long and arduous</span></h1>
     <span> In the Philippines, the patriarchal mindset is glaringly apparent, with the stigmatization of gender roles leaving women less likely to take on more domestic, familial duties, in favor of hanging the more productive work to males. 
@@ -37,7 +37,7 @@
       From the 2023 Labor Force Survey, there is a 21.3% gap in labor participation status between men and women.</p>
   </div>
   <div class="divider"></div>
-  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ CONTENT SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ HYPOTHESIS SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div class="flex flex-col h-3/4 w-3/4 mx-auto">
     <h3 class="text-3xl py-4 font-medium text-center text-red-300">TLDR; What's the problem?</h3>
     <p>Gender bias strengthens the lack of institutionalized support for discrimination against women in the labor force.</p>
@@ -65,7 +65,7 @@
     <h3 class="text-3xl py-4 font-medium text-center">So what now?</h3>
       <p>We analyzed data from factors affecting bias in recruitment, opportunities, and participation of women in the labor force.</p>
   </div>
-  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ CONTENT SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ DATA COLLECTION SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div class="divider"></div>
   <div class="flex flex-col h-screen w-3/4 mx-auto">
     <h1 class="text-5xl py-4 font-medium text-center text-red-300">Data Collection</h1>
@@ -80,12 +80,14 @@
         <p>A total of 1000 observations were collected!</p>
     <button class="btn py-4 mt-6">See our data set <a href="https://docs.google.com/spreadsheets/d/1JgijpA5MjRV2Fa3gpj7ithFEpoxXdo__7hyw2Q9ZnmM/edit?usp=sharing">here</a></button>
   </div>
-  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ CONTENT SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ DATA EXPLORATION SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div class="divider"></div>
-  <div class="text-5xl py-4 font-medium text-center text-red-300">
-    Data Exploration
+  <div class="flex flex-col w-3/4 mx-auto">
+    <h1 class="text-5xl py-4 font-medium text-center text-red-300">Data Exploration</h1>
+    <!-- ADD MORE CONTENT HERE LIKE DOCUMENTATION AND GRAPHS-->
+    <p class="text-center">content here</p>
   </div>
-  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ CONTENT SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ REFERENCES SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div class="divider"></div>
   <div class="flex flex-col w-3/4 mx-auto p-5">
     <h1>References</h1>
