@@ -12,7 +12,6 @@
         <li class="btn px-3" >Modelling</li>
         <li class="btn px-3" >Results</li>
         <li class="btn px-3" >Conclusion</li>
-        <li class="btn px-3" >The Team</li>
 			</ul>
 		</div>
 	</div>
@@ -22,7 +21,7 @@
       <div class="max-w-4xl">
         <h1 class="text-9xl py-2 font-medium text-zinc-950">Closing the Gap</h1>
         <p class="py-6 text-3xl font-bold text-zinc-950">An In-Depth Look at Gender Inequality in the Philippine Labor Force.</p>
-        <button class="btn btn-primary">Let's learn more</button>
+        <!--<button class="btn btn-primary">Let's learn more</button>-->
       </div>
     </div>
   </div>
@@ -84,8 +83,19 @@
     <li>https://neda.gov.ph/wp-content/uploads/2021/09/Determinants-of-Female-Labor-Force-Participation-in-the-Philippines.pdf</li>
     <li>https://psada.psa.gov.ph/catalog/LFS/about</li>
   </div>
-  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ CONTENT SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
-  <div class="flex flex-col items-center justify-center text-5xl py-4 font-medium">
-    The Team
-  </div>
+  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ABOUT THE TEAM SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+  <footer class="footer p-10 bg-base-300 text-base-content">
+    <nav>
+      <h6 class="footer-title leading-3">Audrey Dela Vega</h6> 
+      <a href="https://github.com/mycronare" class="link link-hover">@mycronare</a>
+    </nav> 
+    <nav>
+      <h6 class="footer-title leading-3">Janelle Mendoza</h6> 
+      <a href="https://github.com/sojaja" class="link link-hover">@sojaja</a>
+    </nav> 
+    <nav>
+      <h6 class="footer-title leading-3">Jackie Vicerra</h6> 
+      <a href="https://github.com/derouru" class="link link-hover">@derouru</a>
+    </nav>
+  </footer>
 </main>
