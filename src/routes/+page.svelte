@@ -5,18 +5,20 @@
 <html lang=en>
   <title>BINI Data Science Portfolio</title>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ NAVIGATION BAR  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
-	<div class="navbar bg-base-100 z-50 fixed top-0 w-full flex items-center justify-between px-5 py-3">
-    <div class="text-xl">BINI</div>
-    <ul class="flex space-x-5">
-        <li class="btn px-3">Overview</li>
-        <li class="btn px-3">Data</li>
-        <li class="btn px-3">Exploration</li>
-        <li class="btn px-3">Modelling</li>
-        <li class="btn px-3">Results</li>
-        <li class="btn px-3">Conclusion</li>
-    </ul>
+  <div class="navbar bg-base-100 z-50 fixed top-0 w-full px-5 py-3">
+    <div class="max-w-screen-lg mx-auto flex items-center justify-between">
+        <div class="text-3xl font-bold pr-8">BINI</div>
+        <ul class="flex space-x-3">
+            <li class="btn px-2">Overview</li>
+            <li class="btn px-2">Data</li>
+            <li class="btn px-2">Exploration</li>
+            <li class="btn px-2">Modelling</li>
+            <li class="btn px-2">Results</li>
+            <li class="btn px-2">Conclusion</li>
+        </ul>
+    </div>
 </div>
-  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ PARALLAX LANDING SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ PARALLAX COVER SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <Parallax />
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ BACKGROUND / OVERVIEW SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div class="flex flex-col items-center justify-center h-3/4 w-3/4 mx-auto mt-6">

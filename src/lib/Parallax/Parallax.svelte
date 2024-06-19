@@ -30,7 +30,7 @@
 
 <html lang='en'>
     <div class='parallax'>
-        <div class="bg">
+        <div class="bg mt-5">
             <img src={bg} alt="background1" width="100%" height="auto">
         </div>
         <div class="bg2">
@@ -74,7 +74,7 @@
     .parallax img {
         height: 100%;
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
         z-index: -1;
     }
 </style>
