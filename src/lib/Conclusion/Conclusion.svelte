@@ -1,0 +1,17 @@
+<script>
+</script>
+
+<html lang='en'>
+    <p class="text-left">Certain societal dynamics regarding the gender gap in the labor force can be discerned from the results. The prevalence of women in clerical, service, and sales work suggests that they are more likely to be employed in roles involving administrative and customer-facing tasks. This is also evident in their significant presence in wholesale and retail trade, as well as caregiving and healthcare sectors. These trends reflect traditional gender roles, where women are often associated with nurturing responsibilities and thus default to supportive and service-oriented positions.</p>
+
+    <p class="text-left mt-5 mb-5">This trend is further seen in the underrepresentation of women in skilled and technical occupations. Men dominating skill-centric industries such as agriculture, forestry, and plant operation indicates existing gender barriers in accessing these jobs. Societal norms may discourage women from pursuing specialized training and physically demanding roles, coupled with a lack of support for women's skill development.</p>
+
+    <p class="text-left">The data also shows that women are expected to manage household responsibilities and contribute to family enterprises without formal compensation. The significant presence of women in private household work and unpaid family business roles reflects traditional gender roles and the societal undervaluing of women's contributions in both domestic and business contexts. Women's underrepresentation in private establishments may suggest discriminatory workplace cultures that hinder their participation and advancement.</p>
+
+    <p class="text-left  mt-5 mb-5">Moreover, the prevalence of traditional gender roles is apparent in smaller families. The weak positive correlation suggests that women may participate in the workforce out of economic necessity in larger families, but responsibilities of the household head are more likely to be distributed as the family grows. Male dominance in household leadership positions implies that women are often relegated to supportive roles as primary spouses. The significant gender gap among married employed individuals indicates that married men are more likely to be employed than married women, reflecting traditional norms. Additionally, job security appears more accessible to men, as seen in the significant gender gaps in both permanent and short-term jobs, with women at a disadvantage.</p>
+
+    <p class="text-left">In conclusion, we reject our null hypothesis and accept the alternative: there are job types with a more prevalent gender gap, and certain factors closely correlate with the gender disparity in the workforce. The findings reveal that traditional gender roles and structural barriers significantly influence women's participation in the labor force, confining them to supportive, caregiving, and unpaid roles while underrepresenting them in skilled, technical, and formal private sector jobs. This reflects societal norms that limit women's opportunities and reinforces gender inequality. Addressing these disparities requires targeted policies to support women in non-traditional fields, promote fair hiring practices, and value unpaid domestic work, alongside cultural shifts to challenge and change traditional gender expectations.</p>
+</html>
+
+<style>
+</style>
