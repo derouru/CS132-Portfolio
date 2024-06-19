@@ -1,5 +1,5 @@
 <script>
-    import EmployedGender from "$lib/assets/employedIndividualsbyGender.png"
+    import EmployedGender from "$lib/assets/employedIndividualsByGender.png"
     import HouseHead from "$lib/assets/householdHead.png"
     import HouseSize from "$lib/assets/householdSize.png"
     import MaritalStat from "$lib/assets/maritalStatus.png"
