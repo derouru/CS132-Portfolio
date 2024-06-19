@@ -81,21 +81,36 @@
     <h3 class="text-3xl py-4 font-medium">Identifying factors that correlate with gender gaps in the labor force</h3>
     <p class="text-left">The following are visualizations of the distribution of men and women in different work classifications:</p>
     <!--INSERT GRAPH-->
+    <span class="flex justify-center items-center">
+        <img class="mt-5" id="formula" src="{EmployedGender}" alt="formula" width="75%" height="auto">
+    </span>
     <p class="text-left">An unpaired t-test between two means showed that there is a significant difference between employed male and female workers across all categories (p = 0.0001). The total number of men and women were 509 and 491, respectively. Men had an employment rate of 47.937% &#40;244&#41;, and women had an employment rate of 34.623% &#40;170&#41;.</p>
-    <!--INSERT GRAPH-->
+    <!--INSERT GRAPH OK-->
+    <span class="flex justify-center items-center">
+        <img class="mt-5" id="formula" src="{HouseSize}" alt="formula" width="75%" height="auto">
+    </span>
     <p class="text-left">The figure above shows the computed gender ratio for each household size category.</p>
     <p class="text-left mt-5">The t-tests were able to identify that there is a significant gender gap among those employed with a household size of 2 (p = 0.0366) and 5 (p = 0.0367)--women are severely outnumbered in these categories. As for the rest of the household sizes, the analysis yielded no significant findings. This could be attributed to the fact that 2 and 5 are more common household sizes, with the average national household size being 4.1.
         <sup><a class="text-fuchsia-300 font-bold" href="https://www.arcgis.com/home/item.html?id=5e9a37f7a6734cac9e5c3ec0431e56f3#:~:text=Description-,This%20layer%20shows%20the%20average%20household%20size%20in%20Philippines%20in,household%20population%20by%20total%20households.">[4]</a></sup>
     </p>
-    <!--INSERT GRAPH-->
+    <!--INSERT GRAPH: REGRESSION ANALYSIS-->
     <p class="text-left mt-5">There is a weak positive correlation between household size and women ratio, meaning that in a group of employed people with the same family size will have more women in proportion to men as the family size increases. however the correlation is only weakly positive.</p>
-    <!--INSERT GRAPH-->
+    <!--INSERT GRAPH OK-->
+    <span class="flex justify-center items-center">
+        <img class="mt-5" id="formula" src="{HouseHead}" alt="formula" width="75%" height="auto">
+    </span>
     <p class="text-left mt-5 mb-5">The figure above shows the computed gender ratio for each category under relationship to household head. </p>
     <p class="text-left">One sample t-test on each relationship category showed that there is a significant gender gap within household heads (p = 0.0001), and women are greatly outnumbered in this category. However, among those that identify as spouses to the household head (p = 0.0001), it is the opposite as women greatly outnumber men. Other statistically significant gender gaps are among those that identify as sons/daughters of the head (p = 0.0429) and sons/daughters in law (p = 0.0245).</p>
-    <!--INSERT GRAPH-->
+    <!--INSERT GRAPH OK-->
+    <span class="flex justify-center items-center">
+        <img class="mt-5" id="formula" src="{MaritalStat}" alt="formula" width="75%" height="auto">
+    </span>
     <p class="text-left mt-5 mb-5">The figure above shows the computed gender ratio for each marital status.</p>
     <p class="text-left mt-5 mb-5">One sample T-test showed that there is no significant gender gap among single and divorced/separated employed people. However, the gender ratio is skewed towards men among married employed people significantly (p = 0.0002). This is also the case for widowed people (p = 0.0148), but towards women.</p>
-    <!--INSERT GRAPH-->
+    <!--INSERT GRAPH OK-->
+    <span class="flex justify-center items-center">
+        <img class="mt-5" id="formula" src="{NatureEmploy}" alt="formula" width="75%" height="auto">
+    </span>
     <p class="text-left mt-5 mb-5">The figure above shows the computed gender ratio for each category under nature of employment.</p>
     <p class="text-left mt-5 mb-5">One sample t-test showed that there is a significant gender gap among people with permanent jobs (p = 0.0055) and short term jobs (p = 0.0044).</p>
 </html>
