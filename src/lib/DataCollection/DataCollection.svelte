@@ -13,7 +13,7 @@
                 <span class="font-extrabold">&#8592;</span>
               </p>
               
-              <h3 class="text-3xl py-4 font-medium">Description of data set</h3>
+              <h3 class="text-3xl py-4 font-medium">About the data set</h3>
               <p class="text-left">The dataset was obtained by collating responses from the yearly Labor Force Survey conducted by the Philippine Statistics Authority (PSA). It contains data on the socioeconomic factors affecting employment levels, which aims to provide a basis for policies on the local labor market.
                 <sup><a class="text-fuchsia-300 font-bold" href="https://psada.psa.gov.ph/catalog/LFS/about">[3]</a></sup>
               </p>
