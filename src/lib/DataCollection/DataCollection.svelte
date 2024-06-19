@@ -7,7 +7,11 @@
             <div class="max-w-4xl mx-auto p-6 bg-base-300 rounded-lg shadow-lg">
               <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Data Collection</h1>
 
-              <button class="btn py-4 mt-6">See our data set <a href="https://docs.google.com/spreadsheets/d/1JgijpA5MjRV2Fa3gpj7ithFEpoxXdo__7hyw2Q9ZnmM/edit?usp=sharing">here</a></button>
+              <p class="text-center ">
+                <span class="font-extrabold">&#8594;</span>
+                <button class="btn py-4 mt-6 text-fuchsia-300 bg-base-100 outline-double outline-fuchsia-300">See our data set<a href="https://docs.google.com/spreadsheets/d/1JgijpA5MjRV2Fa3gpj7ithFEpoxXdo__7hyw2Q9ZnmM/edit?usp=sharing">here</a></button>
+                <span class="font-extrabold">&#8592;</span>
+              </p>
               
               <h3 class="text-3xl py-4 font-medium">Description of data set</h3>
               <p class="text-left">The dataset was obtained by collating responses from the yearly Labor Force Survey conducted by the Philippine Statistics Authority (PSA). It contains data on the socioeconomic factors affecting employment levels, which aims to provide a basis for policies on the local labor market.
