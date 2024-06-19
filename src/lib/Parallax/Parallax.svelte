@@ -22,9 +22,9 @@
 
     function updateParallax() {
         document.querySelector('.bg').style.transform = `translateY(${scrollY * 0.9}px)`;
-        document.querySelector('.bg2').style.transform = `translateY(${scrollY * 0.6}px)`;
-        document.querySelector('.bg3').style.transform = `translateY(${scrollY * 0.4}px)`;
-        document.querySelector('.bg4').style.transform = `translateY(${scrollY * 0.2}px)`;
+        document.querySelector('.bg2').style.transform = `translateY(${scrollY * 0.8}px)`;
+        document.querySelector('.bg3').style.transform = `translateY(${scrollY * 0.5}px)`;
+        document.querySelector('.bg4').style.transform = `translateY(${scrollY * 0.3}px)`;
     }
 </script>
 
