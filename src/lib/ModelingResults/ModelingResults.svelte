@@ -4,14 +4,27 @@
     import HouseSize from "$lib/assets/householdSize.png"
     import MaritalStat from "$lib/assets/maritalStatus.png"
     import NatureEmploy from "$lib/assets/natureOfEmployment.png"
+
+    import Regression from "$lib/assets/regression.png"
+    import primaryOccupation from "$lib/assets/primaryOccupation.png"
+    import occupationType from "$lib/assets/occupationType.png"
+    import workerClasses from "$lib/assets/workerClasses.png"
 </script>
 
 <html lang='en'>
     <h3 class="text-3xl py-4 font-medium">Identifying female-centric work types</h3>
     <p class="text-left">The following are visualizations of the gender gap calculated for each category under different primary occupation types, different industry types, and worker class:</p>
-    <!--INSERT 3 GRAPHS HERE-->
+    <!--INSERT GRAPH: Employed By Occupation Type-->
     <span class="flex justify-center items-center">
-        <!--<img class="mt-5" id="formula" src="{}" alt="formula" width="75%" height="auto">-->
+        <img class="mt-5" id="formula" src="{occupationType}" alt="formula" width="75%" height="auto">
+    </span>
+    <!--INSERT GRAPH: Employed By Primary Occupation-->
+    <span class="flex justify-center items-center">
+        <img class="mt-5" id="formula" src="{primaryOccupation}" alt="formula" width="75%" height="auto">
+    </span>
+    <!--INSERT GRAPH: Employed By Worker Classes-->
+    <span class="flex justify-center items-center">
+        <img class="mt-5" id="formula" src="{workerClasses}" alt="formula" width="75%" height="auto">
     </span>
 
     <p class="text-left">The t-tests were able to identify that women are prevalent in the following work classifications:</p>
@@ -94,6 +107,9 @@
         <sup><a class="text-fuchsia-300 font-bold" href="https://www.arcgis.com/home/item.html?id=5e9a37f7a6734cac9e5c3ec0431e56f3#:~:text=Description-,This%20layer%20shows%20the%20average%20household%20size%20in%20Philippines%20in,household%20population%20by%20total%20households.">[4]</a></sup>
     </p>
     <!--INSERT GRAPH: REGRESSION ANALYSIS-->
+    <span class="flex justify-center items-center">
+        <img class="mt-5" id="formula" src="{Regression}" alt="formula" width="75%" height="auto">
+    </span>
     <p class="text-left mt-5">There is a weak positive correlation between household size and women ratio, meaning that in a group of employed people with the same family size will have more women in proportion to men as the family size increases. however the correlation is only weakly positive.</p>
     <!--INSERT GRAPH OK-->
     <span class="flex justify-center items-center">
