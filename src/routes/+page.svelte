@@ -1,30 +1,23 @@
-<main>
+<script>
+  import Parallax from '$lib/Parallax/Parallax.svelte'
+</script>
+
+<html lang=en>
   <title>BINI Data Science Portfolio</title>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ NAVIGATION BAR  ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
-	<div class="navbar bg-base-100">
-		<div class="flex-1 text-xl px-5">BINI</div>
-		<div class="flex-none">
-			<ul class="menu menu-horizontal space-x-5">
-        <!-- Navbar options -->
-				<li class="btn px-3" >Overview</li>
-				<li class="btn px-3" >Data</li>
-        <li class="btn px-3" >Exploration</li>
-        <li class="btn px-3" >Modelling</li>
-        <li class="btn px-3" >Results</li>
-        <li class="btn px-3" >Conclusion</li>
-			</ul>
-		</div>
-	</div>
-  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ LANDING SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
-  <div class="hero min-h-screen bg-gradient-to-r from-red-300 from-20% via-red-300 via-30% to-red-100 to-90%">
-    <div class="hero-content text-center">
-      <div class="max-w-4xl">
-        <h1 class="text-9xl py-2 font-medium text-zinc-950 font-['Helvetica']">Closing the Gap</h1>
-        <p class="py-6 text-3xl font-bold text-zinc-950 ">An In-Depth Look at Gender Inequality in the Philippine Labor Force.</p>
-        <!--<button class="btn btn-primary">Let's learn more</button>-->
-      </div>
-    </div>
-  </div>
+	<div class="navbar bg-base-100 z-50 fixed top-0 w-full flex items-center justify-between px-5 py-3">
+    <div class="text-xl">BINI</div>
+    <ul class="flex space-x-5">
+        <li class="btn px-3">Overview</li>
+        <li class="btn px-3">Data</li>
+        <li class="btn px-3">Exploration</li>
+        <li class="btn px-3">Modelling</li>
+        <li class="btn px-3">Results</li>
+        <li class="btn px-3">Conclusion</li>
+    </ul>
+</div>
+  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ PARALLAX LANDING SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+  <Parallax />
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ BACKGROUND / OVERVIEW SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div class="flex flex-col items-center justify-center h-3/4 w-3/4 mx-auto mt-6">
     <h1 class="text-5xl py-4 font-medium text-center">The fight for gender equality and women empowerment is <span class="text-red-300">long and arduous</span></h1>
@@ -111,4 +104,7 @@
       <a href="https://github.com/derouru" class="link link-hover">@derouru</a>
     </nav>
   </footer>
-</main>
+</html>
+
+<style>
+</style>
