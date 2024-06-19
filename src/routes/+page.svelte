@@ -1,5 +1,18 @@
 <script>
   import Parallax from '$lib/Parallax/Parallax.svelte'
+
+  function scrollToSection(id) {
+        const section = document.getElementById(id);
+        if (section) {
+            const navbarHeight = document.querySelector('.navbar').offsetHeight;
+            const offset = navbarHeight + 20; // Navbar offset
+
+            window.scrollTo({
+                top: section.offsetTop - offset,
+                behavior: 'smooth'
+            });
+        }
+    }
 </script>
 
 <html lang=en>
@@ -9,20 +22,20 @@
     <div class="max-w-screen-lg mx-auto flex items-center justify-between">
         <div class="text-3xl font-bold pr-8">BINI</div>
         <ul class="flex space-x-3">
-            <li class="btn px-2">Overview</li>
-            <li class="btn px-2">Data</li>
-            <li class="btn px-2">Exploration</li>
-            <li class="btn px-2">Modelling</li>
-            <li class="btn px-2">Results</li>
-            <li class="btn px-2">Conclusion</li>
+            <li><button class="btn px-2" on:click={() => scrollToSection('overview')}>Overview</button></li>
+            <li><button class="btn px-2" on:click={() => scrollToSection('data')}>Data</button></li>
+            <li><button class="btn px-2" on:click={() => scrollToSection('exploration')}>Exploration</button></li>
+            <li><button class="btn px-2" on:click={() => scrollToSection('modelling')}>Modelling</button></li>
+            <li><button class="btn px-2" on:click={() => scrollToSection('results')}>Results</button></li>
+            <li><button class="btn px-2" on:click={() => scrollToSection('conclusion')}>Conclusion</button></li>
         </ul>
     </div>
 </div>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ PARALLAX COVER SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <Parallax />
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ BACKGROUND / OVERVIEW SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
-  <div class="flex flex-col items-center justify-center h-3/4 w-3/4 mx-auto mt-6">
-    <h1 class="text-5xl py-4 font-medium text-center">The fight for gender equality and women empowerment is <span class="text-red-300">long and arduous</span></h1>
+  <div id="overview" class="flex flex-col items-center justify-center h-3/4 w-3/4 mx-auto mt-6">
+    <h1 class="text-5xl py-4 font-medium text-center">The fight for gender equality and women empowerment is <span class="text-fuchsia-200">long and arduous</span></h1>
     <span> In the Philippines, the patriarchal mindset is glaringly apparent, with the stigmatization of gender roles leaving women less likely to take on more domestic, familial duties, in favor of hanging the more productive work to males. 
     This is the case despite the fact that women&#39;s access to education have significantly improved--clearly, the issue lies in pervasive, discriminatory gender norms, which are behind the gender gap in the labor force despite women being as competent and employable as men.
     In an attempt to paint a better picture of how discrimination has affected opportunities for women to work, our group will investigate the gender gap present in the labor force. </span>
@@ -34,25 +47,24 @@
   <div class="divider"></div>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ HYPOTHESIS SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div class="flex flex-col h-3/4 w-3/4 mx-auto">
-    <h3 class="text-3xl py-4 font-medium text-center text-red-300">TLDR; What's the problem?</h3>
+    <h3 class="text-3xl py-4 font-medium text-center text-fuchsia-200">TLDR; What's the problem?</h3>
     <p>Gender bias strengthens the lack of institutionalized support for discrimination against women in the labor force.</p>
-        
-    <h3 class="text-3xl py-4 font-medium text-center text-red-300">What's our objective?</h3>
+    <h3 class="text-3xl py-4 font-medium text-center text-fuchsia-200">What's our objective?</h3>
     <p>Use data science to study patterns and trends in the participation of women in the labor force, and propose solutions related to gender diversity and inclusion in the labor force.</p>
     <div class="divider"></div>
     <p class="py-8 text-3xl font-medium text-center">Through data analysis, we aim to answer the following questions:</p> 
-    <p  class="text-3xl py-4 font-medium text-base-100 text-center bg-gradient-to-r from-red-300 from-20% via-red-300 via-30% to-red-100 to-90%">Q1: What jobs under the labor force do women take the most?</p>
-    <p  class="text-3xl py-4 font-medium text-base-100 text-center bg-gradient-to-r from-red-300 from-20% via-red-300 via-30% to-red-100 to-90%">Q2: Over the years, what factors correlate significantly with lack of women employment?</p>
+    <p  class="text-3xl py-4 font-medium text-center ">Q1: What jobs under the labor force do women take the most?</p>
+    <p  class="text-3xl py-4 font-medium text-center ">Q2: Over the years, what factors correlate significantly with lack of women employment?</p>
     <div class="divider"></div>
     <div class="flex max-w-6xl justify-center mx-auto">
       <div class="grid h-80 flex-grow card bg-base-300 rounded-box place-items-center">
         <h3 class="text-3xl">Null Hypothesis</h3>
-        <p class="text-center text-red-300">There are no identifiable work types where women are more outnumbered. Additionally, there is no significant relationship between certain factors (e.g. region, relationship with house head, educational attainment, etc.) and the gender gap between men and women in the labor force.</p>
+        <p class="text-center text-fuchsia-200">There are no identifiable work types where women are more outnumbered. Additionally, there is no significant relationship between certain factors (e.g. region, relationship with house head, educational attainment, etc.) and the gender gap between men and women in the labor force.</p>
       </div>
       <div class="divider divider-horizontal"></div>
       <div class="grid h-80 flex-grow card bg-base-300 rounded-box place-items-center">
         <h3 class="text-3xl">Alternative Hypothesis</h3>
-        <p class="text-center p-5 text-red-300">There are job types with a more prevalent gender gap, where women are significantly outnumbered and less likely to be found participating in. There are also identifiable factors that closely correlate with the gap between men and women in the labor force.</p>
+        <p class="text-center p-5 text-fuchsia-200">There are job types with a more prevalent gender gap, where women are significantly outnumbered and less likely to be found participating in. There are also identifiable factors that closely correlate with the gap between men and women in the labor force.</p>
       </div>
     </div>
     
@@ -61,9 +73,9 @@
       <p>We analyzed data from factors affecting bias in recruitment, opportunities, and participation of women in the labor force.</p>
   </div>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ DATA COLLECTION SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
-  <div class="divider"></div>
+  <div id="data" class="divider"></div>
   <div class="flex flex-col h-screen w-3/4 mx-auto">
-    <h1 class="text-5xl py-4 font-medium text-center text-red-300">Data Collection</h1>
+    <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-200">Data Collection</h1>
     
     <h3 class="text-3xl py-4 font-medium text-center">Description of data set</h3>
         <p>The dataset was obtained by collating responses from the yearly Labor Force Survey conducted by the Philippine Statistics Authority (PSA). It contains data on the socioeconomic factors affecting employment levels, which aims to provide a basis for policies on the local labor market. </p>
@@ -76,9 +88,31 @@
     <button class="btn py-4 mt-6">See our data set <a href="https://docs.google.com/spreadsheets/d/1JgijpA5MjRV2Fa3gpj7ithFEpoxXdo__7hyw2Q9ZnmM/edit?usp=sharing">here</a></button>
   </div>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ DATA EXPLORATION SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
-  <div class="divider"></div>
+  <div id="exploration" class="divider"></div>
   <div class="flex flex-col w-3/4 mx-auto">
-    <h1 class="text-5xl py-4 font-medium text-center text-red-300">Data Exploration</h1>
+    <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-200">Data Exploration</h1>
+    <!-- ADD MORE CONTENT HERE LIKE DOCUMENTATION AND GRAPHS-->
+    <p class="text-center">content here</p>
+  </div>
+
+  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ MODELLING SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+  <div id="modelling" class="divider"></div>
+  <div class="flex flex-col w-3/4 mx-auto">
+    <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-200">Modelling</h1>
+    <!-- ADD MORE CONTENT HERE LIKE DOCUMENTATION AND GRAPHS-->
+    <p class="text-center">content here</p>
+  </div>
+  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ RESULTS SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+  <div id="results" class="divider"></div>
+  <div class="flex flex-col w-3/4 mx-auto">
+    <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-200">Results</h1>
+    <!-- ADD MORE CONTENT HERE LIKE DOCUMENTATION AND GRAPHS-->
+    <p class="text-center">content here</p>
+  </div>
+  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ CONCLUSION SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
+  <div id="conclusion" class="divider"></div>
+  <div class="flex flex-col w-3/4 mx-auto">
+    <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-200">Conclusion</h1>
     <!-- ADD MORE CONTENT HERE LIKE DOCUMENTATION AND GRAPHS-->
     <p class="text-center">content here</p>
   </div>
