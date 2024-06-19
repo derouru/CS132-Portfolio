@@ -2,6 +2,9 @@
   import Parallax from '$lib/Parallax/Parallax.svelte'
   import Hypothesis from '$lib/Hypothesis/Hypothesis.svelte'
   import DataCollection from '$lib/DataCollection/DataCollection.svelte'
+  import DataExploration from '$lib/DataExploration/DataExploration.svelte'
+  import ModelingResults from '$lib/ModelingResults/ModelingResults.svelte'
+  import Conclusion from '$lib/Conclusion/Conclusion.svelte'
   import Footer from '$lib/Footer/Footer.svelte'
 
   function scrollToSection(id) {
@@ -56,27 +59,27 @@
   <DataCollection />
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ DATA EXPLORATION SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div id="exploration" class="divider"></div>
-  <div class="flex justify-center items-center">
+  <div class="flex justify-center">
     <div class="max-w-4xl mx-auto p-6 bg-base-300 rounded-lg shadow-lg">
       <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Data Exploration</h1>
-      <p class="text-center">content here</p>
+      <DataExploration />
     </div>
   </div>
 
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ RESULTS SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div id="modelingAndResults" class="divider"></div>
-  <div class="flex justify-center items-center">
+  <div class="flex justify-center">
     <div class="max-w-4xl mx-auto p-6 bg-base-300 rounded-lg shadow-lg">
       <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Modeling & Results</h1>
-      <p class="text-center">content here</p>
+      <ModelingResults />
     </div>
   </div>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ CONCLUSION SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div id="conclusion" class="divider"></div>
-  <div class="flex justify-center items-center">
+  <div class="flex justify-center">
     <div class="max-w-4xl mx-auto p-6 bg-base-300 rounded-lg shadow-lg">
       <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Conclusion</h1>
-      <p class="text-center">content here</p>
+      <Conclusion />
     </div>
   </div>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ABOUT THE TEAM SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
