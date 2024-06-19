@@ -28,8 +28,7 @@
             <li><button class="btn px-2" on:click={() => scrollToSection('overview')}>Overview</button></li>
             <li><button class="btn px-2" on:click={() => scrollToSection('data')}>Data</button></li>
             <li><button class="btn px-2" on:click={() => scrollToSection('exploration')}>Exploration</button></li>
-            <li><button class="btn px-2" on:click={() => scrollToSection('modelling')}>Modelling</button></li>
-            <li><button class="btn px-2" on:click={() => scrollToSection('results')}>Results</button></li>
+            <li><button class="btn px-2" on:click={() => scrollToSection('modelingAndResults')}>Modelling & Results</button></li>
             <li><button class="btn px-2" on:click={() => scrollToSection('conclusion')}>Conclusion</button></li>
         </ul>
     </div>
@@ -64,19 +63,11 @@
     </div>
   </div>
 
-  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ MODELLING SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
-  <div id="data" class="divider"></div>
-  <div class="flex justify-center items-center">
-    <div class="max-w-4xl mx-auto p-6 bg-base-300 rounded-lg shadow-lg">
-      <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Modelling</h1>
-      <p class="text-center">content here</p>
-    </div>
-  </div>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ RESULTS SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
-  <div id="results" class="divider"></div>
+  <div id="modelingAndResults" class="divider"></div>
   <div class="flex justify-center items-center">
     <div class="max-w-4xl mx-auto p-6 bg-base-300 rounded-lg shadow-lg">
-      <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Results</h1>
+      <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Modeling & Results</h1>
       <p class="text-center">content here</p>
     </div>
   </div>
