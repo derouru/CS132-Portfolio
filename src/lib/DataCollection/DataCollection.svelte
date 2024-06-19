@@ -8,7 +8,7 @@
 
       <p class="text-center ">
         <span class="font-extrabold">&#8594;</span>
-        <button class="btn py-4 mt-6 text-fuchsia-300 bg-base-100 outline-double outline-fuchsia-300">See our data set<a href="https://docs.google.com/spreadsheets/d/1JgijpA5MjRV2Fa3gpj7ithFEpoxXdo__7hyw2Q9ZnmM/edit?usp=sharing">here</a></button>
+        <button class="btn py-4 mt-6 text-fuchsia-300 bg-base-100 outline-double outline-fuchsia-300"><a href="https://docs.google.com/spreadsheets/d/1JgijpA5MjRV2Fa3gpj7ithFEpoxXdo__7hyw2Q9ZnmM/edit?usp=sharing">See our data set here</a></button>
         <span class="font-extrabold">&#8592;</span>
       </p>
               

@@ -1,10 +1,18 @@
 <script>
+    import EmployedGender from "$lib/assets/employedIndividualsbyGender.png"
+    import HouseHead from "$lib/assets/householdHead.png"
+    import HouseSize from "$lib/assets/householdSize.png"
+    import MaritalStat from "$lib/assets/maritalStatus.png"
+    import NatureEmploy from "$lib/assets/natureOfEmployment.png"
 </script>
 
 <html lang='en'>
     <h3 class="text-3xl py-4 font-medium">Identifying female-centric work types</h3>
     <p class="text-left">The following are visualizations of the distribution of men and women in different work classifications:</p>
-    <!--INSERT GRAPH-->
+    <!--INSERT 3 GRAPHS-->
+    <span class="flex justify-center items-center">
+        <!--<img class="mt-5" id="formula" src="{}" alt="formula" width="75%" height="auto">-->
+    </span>
 
     <p class="text-left">The t-tests were able to identify that women are prevalent in the following work classifications:</p>
     <!--INSERT TO SMALLER CARD-->
