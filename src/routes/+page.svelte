@@ -45,7 +45,7 @@
     <h3 class="text-3xl py-4 font-medium text-center text-red-300">What's our objective?</h3>
     <p>Use data science to study patterns and trends in the participation of women in the labor force, and propose solutions related to gender diversity and inclusion in the labor force.</p>
     <div class="divider"></div>
-    <p class="py-8 text-3xl py-4 font-medium text-center">Through data analysis, we aim to answer the following questions:</p> 
+    <p class="py-8 text-3xl font-medium text-center">Through data analysis, we aim to answer the following questions:</p> 
     <p  class="text-3xl py-4 font-medium text-base-100 text-center bg-gradient-to-r from-red-300 from-20% via-red-300 via-30% to-red-100 to-90%">Q1: What jobs under the labor force do women take the most?</p>
     <p  class="text-3xl py-4 font-medium text-base-100 text-center bg-gradient-to-r from-red-300 from-20% via-red-300 via-30% to-red-100 to-90%">Q2: Over the years, what factors correlate significantly with lack of women employment?</p>
     <div class="divider"></div>
