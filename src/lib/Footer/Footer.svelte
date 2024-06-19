@@ -2,7 +2,7 @@
 </script>
 
 <html lang='en'>
-    <footer class="footer p-10 bg-base-300 text-base-content flex justify-center">
+    <footer class="footer mt-10 p-10 bg-base-300 text-base-content flex justify-center">
         <nav class="mx-12">
           <pre>
          .--.

@@ -57,40 +57,36 @@
   <DataCollection />
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ DATA EXPLORATION SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div id="exploration" class="divider"></div>
-  <div class="flex flex-col w-3/4 mx-auto">
-    <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Data Exploration</h1>
-    <!-- ADD MORE CONTENT HERE LIKE DOCUMENTATION AND GRAPHS-->
-    <p class="text-center">content here</p>
+  <div class="flex justify-center items-center">
+    <div class="max-w-4xl mx-auto p-6 bg-base-300 rounded-lg shadow-lg">
+      <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Data Exploration</h1>
+      <p class="text-center">content here</p>
+    </div>
   </div>
 
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ MODELLING SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
-  <div id="modelling" class="divider"></div>
-  <div class="flex flex-col w-3/4 mx-auto">
-    <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Modelling</h1>
-    <!-- ADD MORE CONTENT HERE LIKE DOCUMENTATION AND GRAPHS-->
-    <p class="text-center">content here</p>
+  <div id="data" class="divider"></div>
+  <div class="flex justify-center items-center">
+    <div class="max-w-4xl mx-auto p-6 bg-base-300 rounded-lg shadow-lg">
+      <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Modelling</h1>
+      <p class="text-center">content here</p>
+    </div>
   </div>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ RESULTS SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div id="results" class="divider"></div>
-  <div class="flex flex-col w-3/4 mx-auto">
-    <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Results</h1>
-    <!-- ADD MORE CONTENT HERE LIKE DOCUMENTATION AND GRAPHS-->
-    <p class="text-center">content here</p>
+  <div class="flex justify-center items-center">
+    <div class="max-w-4xl mx-auto p-6 bg-base-300 rounded-lg shadow-lg">
+      <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Results</h1>
+      <p class="text-center">content here</p>
+    </div>
   </div>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ CONCLUSION SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <div id="conclusion" class="divider"></div>
-  <div class="flex flex-col w-3/4 mx-auto">
-    <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Conclusion</h1>
-    <!-- ADD MORE CONTENT HERE LIKE DOCUMENTATION AND GRAPHS-->
-    <p class="text-center">content here</p>
-  </div>
-  <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ REFERENCES SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
-  <div class="divider"></div>
-  <div class="flex flex-col w-3/4 mx-auto p-5">
-    <h1>References</h1>
-    <li>https://psada.psa.gov.ph/catalog/LFS/about</li>
-    <li>https://neda.gov.ph/women-in-the-workplace-paving-a-better-landscape-in-the-labor-force/</li>
-    <li>https://neda.gov.ph/wp-content/uploads/2021/09/Determinants-of-Female-Labor-Force-Participation-in-the-Philippines.pdf</li>
+  <div class="flex justify-center items-center">
+    <div class="max-w-4xl mx-auto p-6 bg-base-300 rounded-lg shadow-lg">
+      <h1 class="text-5xl py-4 font-medium text-center text-fuchsia-300">Conclusion</h1>
+      <p class="text-center">content here</p>
+    </div>
   </div>
   <!-- ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ABOUT THE TEAM SECTION ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ -->
   <Footer />
